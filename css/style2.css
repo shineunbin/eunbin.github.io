@@ -101,40 +101,66 @@ input, select {
     vertical-align:middle;
 }
 
-.Mainlogo{
-    position: absolute;
-    top:30%;
-    left: 50%;
-    transform:translateX(-50%);
+*{
+    font-family: "Arial","나눔고딕";
+    }
+ul,li,ol {
+    list-style:none;
 }
 
-@import 'lesshat';
-.block{
-  background: white;
-  border: 1.3px solid #ff0000;
-  border-radius: 30px;
-  width: 170px;
-  margin: 0 auto;
-  text-align: center;
-  padding: 50px;
-  text-transformation: uppercase;
-  font-family: 'arial', sans-serif;
-  font-weight: bold;
-  margin-top: 28%;
- color:#ff0000;
-  padding:20px;
-  display: block;
-  background-image: linear-gradient(to left,
-    transparent,
-    transparent 50%,
-    #ff0000 50%,
-    #ff0000);
-  background-position: 100% 0;
-    background-size: 200% 100%;
-    transition: all .25s ease-in;
-    
+body{
+    background: #000;
 }
-.block:hover{
-  background-position: 0 0;
-  color:white;
+
+.left{
+    position: absolute;
+    width: 90%;
+    height: 3000px;
+    background-color: #f5f5f5;
+}
+.Toplogo{
+    position: fixed;
+    top:10%;
+}
+.nav{
+    margin-left:8%;
+}
+
+.nav-title{
+    position: fixed;
+    font-size:11px;
+    top:70%;
+    margin-bottom: 30px;
+    line-height: 280%;
+}
+
+.leftbox1{
+    margin-top:23%;
+    margin-left:20%;
+}
+.leftbox1maintitle{
+    font-size:30pt;
+    margin-bottom: 18px;
+}
+.leftbox1title1{
+    font-size:17pt;
+    color:#ff0000;
+}
+
+.leftbox2{
+    margin-top:30%;
+    margin-left:26.5%;
+}
+.leftbox2maintitle{
+    color:rgb(80, 80, 80);
+    font-size:10pt;
+    margin-bottom: 5%;
+}
+.leftbox2subtitle1{
+    font-size:15pt;
+    margin-bottom: 5%;
+}
+.leftbox2title1{
+    font-size:11pt;
+    line-height: 200%;
 }

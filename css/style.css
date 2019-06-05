@@ -101,6 +101,18 @@ input, select {
     vertical-align:middle;
 }
 
+
+
+a:link { 
+    text-decoration: none;
+    }
+a:visited { 
+    color: white; text-decoration: none;
+    }
+
+
+
+
 .Mainlogo{
     position: absolute;
     top:30%;

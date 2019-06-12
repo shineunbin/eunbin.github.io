@@ -121,16 +121,17 @@ ul,li,ol {
 }
 
 body{
-    background: rgb(252, 0, 0);
     overflow-x:hidden;
+    
 }
 
 .left{
     position: absolute;
     width: 90%;
-    height: 2700px;
+    height: 400%;
     background-color: #ffffff;
     overflow: auto;
+    overflow-y:hidden;
     
 }
 .Toplogo{
@@ -209,10 +210,11 @@ body{
     line-height: 200%;
 }
 .brandimg1{
-    position: absolute;
     max-width:100%;
+    position: absolute;
     margin-left:90%;
     margin-top:-15%;
+    width:15%;
 }
 
 .leftbox4{
@@ -339,7 +341,6 @@ body{
     padding-top:325px;
 }
 .lifebox2{
-    top:-10%;
 }
 .lifebox2title{
     color: white;

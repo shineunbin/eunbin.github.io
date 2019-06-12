@@ -338,10 +338,71 @@ body{
     font-size: 120pt;
     padding-top:325px;
 }
-
+.lifebox2{
+    top:-10%;
+}
 .lifebox2title{
     color: white;
-    text-align:center;
-    font-size:30pt;
-    padding-top:28%;
+    display: flex;
+    position: absolute;
+    top:0;
+    right: 0;
+    bottom: 10%;
+    left: -15%;
+    width: 700px;
+    height: 39px;
+    margin: auto;
+    font-size: 40px;
+    line-height: 40px;
+    overflow: hidden;
 }
+
+.lifebox2title ul{
+    padding-left: 20px;
+    animation: cambiar 10s infinite;  
+    color :#ff0000;
+    font-style: italic;
+}
+
+.lifebox2title ul, p {
+    margin: 0; 
+  }
+
+@keyframes cambiar {
+    0% {margin-top: 0;}
+    5% {margin-top: 0;}
+    
+   10% {margin-top: -40px;}
+    15% {margin-top: -40px;}
+    
+    20% {margin-top: -80px;}
+    25% {margin-top: -80px;}
+    
+    30% {margin-top: -120px;}
+    35% {margin-top: -120px;}
+    
+    40% {margin-top: -160px;}
+    45% {margin-top: -160px;}
+  
+    50% {margin-top: -160px;}
+    55% {margin-top: -160px;}
+    
+    60% {margin-top: -120px;}
+    65% {margin-top: -120px;}
+    
+    70% {margin-top: -80px;}
+    75% {margin-top: -80px;}
+  
+    80% {margin-top: -40px;}
+    85% {margin-top: -40px;}
+  
+    90% {margin-top: 0;}
+    100% {margin-top: -0;}
+  }
+
+  .lifebox3title{
+      color:white;
+      margin-top:65%;
+      margin-left:19%;
+      font-size:20px;
+  }

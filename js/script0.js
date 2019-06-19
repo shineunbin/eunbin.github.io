@@ -1,3 +1,4 @@
+
 $(function() {
   // IE related fixes and polyfills
   function detectIE() {

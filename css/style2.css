@@ -100,18 +100,14 @@ hr {
 input, select {
     vertical-align:middle;
 }
-
-
-
-
 a:link { 
     text-decoration: none;
+    color:#8a8a8a;
     }
 a:visited { 
-    color: white; text-decoration: none;
+    color:#8a8a8a; text-decoration: none;
     }
-
-
+a{color:#8a8a8a;}
 
 *{
     font-family: "Arial","나눔고딕";
@@ -140,7 +136,7 @@ body{
     z-index: 1;
 }
 .nav{
-    margin-left:8%;
+    margin-left:6%;
 }
 
 .nav-title{

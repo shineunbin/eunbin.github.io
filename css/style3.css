@@ -293,7 +293,7 @@ body{
     float:left;
     text-align:center;
     margin-top:6%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 .itemimg1{
     width: 350px;
@@ -338,6 +338,52 @@ body{
     background: url("../img/item3.png") no-repeat;
     display: inline-block;
 }
+.itembox2{
+    width:18%;
+    margin-left:16%;
+    float:left;
+    text-align:center;
+    margin-top:6%;
+    margin-bottom: 10%;
+}
+.itemimg4{
+    width: 500px;
+    height: 500px;
+    background: url("../img/item4.png") no-repeat;
+    display: inline-block;
+    border:solid 2px #efefef;
+    box-shadow: #cecece 3px 3px 3px;
+}
+.itemimg4:hover{
+    width: 500px;
+    height: 500px;
+    background: url("../img/item4-1.png") no-repeat;
+    display: inline-block;
+    border:solid 2px #efefef;
+    box-shadow: #cecece 3px 3px 3px;
+}
+
+.itemimg5{
+    width: 500px;
+    height: 500px;
+    background: url("../img/item5.png") no-repeat;
+    display: inline-block;
+    border:solid 2px #efefef;
+    box-shadow: #cecece 3px 3px 3px;
+}
+
+.itemimg5:hover{
+    width: 500px;
+    height: 500px;
+    background: url("../img/item5-1.png") no-repeat;
+    display: inline-block;
+    border:solid 2px #efefef;
+    box-shadow: #cecece 3px 3px 3px;
+}
+
+
+
+
 
 .goods-sub-text{
     text-align: center;

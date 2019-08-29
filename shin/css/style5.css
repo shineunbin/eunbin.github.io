@@ -1,0 +1,142 @@
+body,html{height:100%;}
+body,h1,h2,h3,h4,h5,h6,p,ul,li,figure{margin:0;padding:0}
+ul,ol,li{list-style:none;}
+img{border:none;}
+a{text-decoration:none;}
+.clearfix:after{content:"";clear:both;display:block;}
+*{font-family: "Arial","나눔고딕";}
+a {color:rgb(0, 0, 0);}
+a:link { text-decoration: none;}
+a:visited {color: rgb(0, 0, 0); text-decoration: none;}
+a:hover { color: rgb(255, 0, 0); text-decoration: underline;}
+.clear{clear:both;}
+.gnb{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background: white;
+    z-index: 1;
+    box-sizing: border-box;
+    padding-top: 17px;
+}
+.gnb a{
+    margin-left:5.2%;
+    font-size: 11pt;
+    
+}
+.logo{
+    position: absolute;
+    margin-left: -51%;
+}
+.form{
+    padding-top:10%;
+    margin-left:30%;
+    margin-bottom:18%;
+}
+.form-1{
+    font-size:25px;
+    margin-bottom: 5%;
+}
+.form-2{
+    margin-top:10px;
+    margin-bottom:25px;
+}
+.id{
+    width: 300px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+.password{
+    width: 300px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+.name{
+    width: 300px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+.col1{
+    width: 80px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+.col2{
+    width: 300px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+.col3{
+    width: 300px;
+    height: 30px;
+    margin-bottom: 15px;
+    
+}
+.col4{
+    display: inline-block;
+}
+.col4 select{
+    height: 37px;
+    width: 80px;
+}
+.col5{
+    width: 300px;
+    height: 30px;
+}
+.col6{
+    width: 300px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+.col7{
+    width: 300px;
+    height: 30px;
+
+}
+.col8{
+    display: inline-block;
+}
+.col8 select{
+    height: 37px;
+    width: 300px;
+}
+.membership{
+    margin-top: 80px;
+    width: 430px;
+    height: 30px;
+    border: solid 1px #313131;
+    background-color:#313131;
+    color:white;
+    padding-top:14px;
+    display: inline-block;
+    text-align: center;
+    font-size:12px;
+}
+.membership:hover{
+    background-color:#000;
+}
+
+.footer{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    margin-top:5%;
+    background-color:rgb(51, 51, 51);
+    font-size:10pt;
+    color:white
+}
+.footer-title{
+    margin-left:11%;
+    padding-top:3%;
+}
+.footer-title1{
+    margin-left:11%;
+    margin-top:10px;
+}
+.kaywonlogo{
+    position: absolute;
+    margin-left:80%;
+    margin-top:-50px;
+}

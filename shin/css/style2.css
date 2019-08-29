@@ -1,0 +1,234 @@
+body,html{height:100%;}
+body,h1,h2,h3,h4,h5,h6,p,ul,li,figure{margin:0;padding:0}
+ul,ol,li{list-style:none;}
+img{border:none;}
+a{text-decoration:none;}
+.clearfix:after{content:"";clear:both;display:block;}
+*{font-family: "Arial","나눔고딕";overflow-x: hidden;}
+a {color:rgb(0, 0, 0);}
+a:link { text-decoration: none;}
+a:visited {color: rgb(0, 0, 0); text-decoration: none;}
+a:hover { color: rgb(255, 0, 0); text-decoration: underline;}
+.clear{clear:both;}
+.gnb{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background: white;
+    z-index: 1;
+    box-sizing: border-box;
+    padding-top: 17px;
+}
+.gnb a{
+    margin-left:5.2%;
+    font-size: 11pt;
+    
+}
+.logo{
+    position: absolute;
+    margin-left: -51%;
+}
+.flow{
+    width: 100%;
+    height: 50px;
+    margin-top:80px;
+    font-size:11;
+    color:rgb(0, 0, 0);
+    background-color: #f1f1f1f8;
+}
+.tag{
+    box-sizing: border-box;
+    margin-left:10%;
+    padding-top:14px;
+}
+.tag a {
+    margin-left:10px;
+    font-weight: 600;
+}
+.back{
+    clear:both;
+    background-image: url("../img/go1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position:relative;
+    width: 100%;
+    height: 100%;
+}
+.backtitle{
+    color:white;
+    font-size: 60pt;
+    text-align: center;
+    padding-top:20%;
+    font-weight: 500;
+}
+.backtitle2{
+    color:red;
+    font-weight: 700;
+}
+
+.won{
+    font-weight: bold;
+}
+.item{
+    margin-top:6%;
+    margin-left:1%;
+}
+.item-maintitle{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size:24pt;
+    font-weight: 400;
+}
+.itembox{
+    width:18%;
+    margin-left:5%;
+    float:left;
+    text-align:center;
+    margin-bottom: 5%;
+}
+.itemtitle{
+    padding-top:20px;
+    font-size:14pt;
+    margin-left:5%;
+}
+.itemtitle2{
+    margin-top:10px;
+    margin-left:5%;
+}
+
+.itemimg1{
+    width: 371px;
+    height: 540px;
+    background: url("../img/it1.png") no-repeat;
+    display: inline-block;
+}
+.itemimg1:hover {
+    background: url("../img/it1-1.png") no-repeat;
+}
+
+.itemimg2{
+    width: 371px;
+    height: 540px;
+    background: url("../img/it2.png") no-repeat;
+    display: inline-block;
+}
+.itemimg2:hover {
+    background: url("../img/it2-1.png") no-repeat;
+}
+
+.itemimg3{
+    width: 371px;
+    height: 540px;
+    background: url("../img/it3.png") no-repeat;
+    display: inline-block;
+}
+.itemimg3:hover {
+    background: url("../img/it3-1.png") no-repeat;
+}
+
+.itemimg4{
+    width: 371px;
+    height: 540px;
+    background: url("../img/it4.png") no-repeat;
+    display: inline-block;
+}
+.itemimg4:hover {
+    background: url("../img/it4-1.png") no-repeat;
+}
+.itemimg5{
+    width: 371px;
+    height: 540px;
+    background: url("../img/it5.png") no-repeat;
+    display: inline-block;
+}
+.itemimg5:hover {
+    background: url("../img/it5-1.png") no-repeat;
+}
+.itemimg6{
+    width: 371px;
+    height: 540px;
+    background: url("../img/it6.png") no-repeat;
+    display: inline-block;
+}
+.itemimg6:hover {
+    background: url("../img/it6-1.png") no-repeat;
+}
+.itemimg7{
+    width: 371px;
+    height: 540px;
+    background: url("../img/it7.png") no-repeat;
+    display: inline-block;
+}
+.itemimg7:hover {
+    background: url("../img/it7-1.png") no-repeat;
+}
+.itemimg8{
+    width: 371px;
+    height: 540px;
+    background: url("../img/it8.png") no-repeat;
+    display: inline-block;
+}
+.itemimg8:hover {
+    background: url("../img/it8-1.png") no-repeat;
+}
+.itemimg9{
+    width: 371px;
+    height: 540px;
+    background: url("../img/it9.png") no-repeat;
+    display: inline-block;
+}
+.itemimg9:hover {
+    background: url("../img/it9-1.png") no-repeat;
+}
+.itemimg10{
+    width: 371px;
+    height: 540px;
+    background: url("../img/it10.png") no-repeat;
+    display: inline-block;
+}
+.itemimg10:hover {
+    background: url("../img/it10-1.png") no-repeat;
+}
+.itemimg11{
+    width: 371px;
+    height: 540px;
+    background: url("../img/it11.png") no-repeat;
+    display: inline-block;
+}
+.itemimg11:hover {
+    background: url("../img/it11-1.png") no-repeat;
+}
+.itemimg12{
+    width: 371px;
+    height: 540px;
+    background: url("../img/it12.png") no-repeat;
+    display: inline-block;
+}
+.itemimg12:hover {
+    background: url("../img/it12-1.png") no-repeat;
+}
+.footer{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    margin-top:5%;
+    background-color:rgb(51, 51, 51);
+    font-size:10pt;
+    color:white
+}
+.footer-title{
+    margin-left:11%;
+    padding-top:3%;
+}
+.footer-title1{
+    margin-left:11%;
+    margin-top:10px;
+}
+.kaywonlogo{
+    position: absolute;
+    margin-left:80%;
+    margin-top:-50px;
+}

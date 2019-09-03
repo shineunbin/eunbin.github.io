@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SeaMovie</title>
+    <link href="https://fonts.googleapis.com/css?family=Jua" rel="stylesheet">
+    <style>
+                a:link { text-decoration: none;}
+                a:visited { color: white; text-decoration: none;}
+                a:hover { color: blue; text-decoration: underline;}
+        body{   font-family: 'Jua', sans-serif;
+                background-color: #00001E;
+                color:white;
+            }
+        body{
+            background-image:url("img/seaback.jpg");
+            opacity: 50%;
+            background-repeat: no-repeat;
+            background-size:cover;
+        }    
+        #gnb { 
+                position:fixed; 
+                width:175px; 
+                display:inline-block; 
+                color:white;
+                left:10%; 
+                top:20px;              
+            }
+            .title {
+                font-size: 60px;
+                border-bottom: 2px solid white;
+                width: 750px;
+                padding-bottom: 5px;
+                position:absolute;
+                top:150px;
+                left:400px;
+            }
+            h1{
+                padding:10px;
+                position: absolute;
+                top:220px;
+                left:395px;
+                font-size: 19px;
+                text-align: initial;
+                
+            }
+            footer {
+                position: absolute;
+                top:900px;
+                border-top: 1px solid white;
+                width:100%;
+                padding-top:3px;
+            }
+            .sea{
+                position: absolute;
+                top: 320px;
+                left: 300px;
+            }
+    </style>
+</head>
+<body>
+        <div id="gnb">
+                <a href="Index.html">Under The Sea</a><br>
+                <a href="sea.html">Sea</a> <br>
+                <a href="Deepsea.html">Deep Sea</a> <br>
+                <a href="SeaMovie.html">Sea Movie</a> <br>
+                <a href="DeepSeaMovie.html">Deep Sea Movie</a><br>
+                <a href="Issues.html">Environmental Issues</a><br>
+                <a href="Self.html">Introduce My Self</a><br>
+                <br>
+                <a href="#">Top</a>
+            </div>
+
+            
+        <span class = "title">Sea Movie</span>
+        
+        <h1>조금 더 친숙하게,<br>네모바지 스폰지밥</h1>
+
+            <span class = "sea">
+                <video width="960" height="540" controls autoplay>
+                    <source src="sea.mp4" type="video/mp4">
+                </video>
+            </span>
+            <footer>
+                    <h5>21561068_신은빈 계원예술대학교 디지털 미디어 디자인</h5>
+            </footer>
+</body>
+
+</html>

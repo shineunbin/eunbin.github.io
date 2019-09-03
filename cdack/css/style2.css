@@ -1,0 +1,736 @@
+
+        
+        body,html{height:100%;}
+        body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,figure{margin:0;padding:0}
+        li{list-style:none;}
+        img{border:none;}
+        a{text-decoration:none;}
+        
+        body,html{height:100%;}
+        body,h1,h2,h3,h4,h5,h6,p,ul,li,figure{margin:0;padding:0}
+        li{list-style:none;}
+        img{border:none;}
+        a{text-decoration:none;}
+        .clearfix:after{
+	    content:"";
+	    clear:both;
+        display:block;
+        }
+        
+        *{
+            font-family: "Arial","나눔고딕";
+            }
+
+        body{
+            background-color:black;
+            color : white;
+            
+        }
+        .content1 {
+            width:100%;
+            height:100%;
+        }
+        .content2 {
+            width:100%;
+            height:100%;
+        }
+        .Con2box2{
+            widows: 100%;
+            height:100%;
+        }
+        
+        .Con2box3{
+            widows: 100%;
+            height:100%;
+            
+        }
+        .content3 {   
+            width:100%;
+            height:100%;
+            max-width: 1200px;
+        }
+        .Service{
+            width: 100%;
+            height: 100%;
+        }
+        .Tab{
+            width: 100%;
+            height: 100%;
+        }
+        .content4 {
+            clear:both;
+            background-image:url("../img/back4.png");
+            background-repeat: no-repeat;
+    	    background-position: center;
+            background-size: cover;
+            width:100%;
+            height:100%;
+        }
+        .content5 {
+            clear:both;
+            background-image:url("../img/back5.png");
+            background-repeat: no-repeat;
+    	    background-position: center;
+            background-size: cover;
+            width:100%;
+            height:100%;
+        }
+        .content6 {
+            clear:both;
+            background-image:url("../img/Lastback2.png");
+            background-repeat: no-repeat;
+    	    background-position: center;
+            background-size: cover;
+            width:100%;
+            height:100%;
+        }
+        /*여기까지 컨텐츠 크기*/
+        a {
+         color:white;   
+        }
+        a:link { 
+            text-decoration: none;
+            }
+        a:visited { 
+            color: white; text-decoration: none;
+            }
+        a:hover { 
+            color: white; text-decoration: underline;
+            }
+        .GNB { 
+            position: fixed;
+            color:white; 
+            top: 10px;
+            line-height: 30px;
+            margin-left: 60%;
+            z-index: 100;           
+        }
+        .GNB a {
+            margin-right:50px;
+        }
+        #TopLogo {
+            position: fixed;
+            top :13px;
+            left: 13px;
+            z-index: 100;
+        }
+        /*네비바 고정해놓고 설정*/
+        .street{
+            display: table;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top:5%;
+        } /*동영상 예시로 넣어논거임*/
+
+        /*여기부터 타이틀 맨위에 콘텐츠1*/
+
+        .Con1box{
+            text-align: center;
+            margin-top:60px;
+        }
+
+        .Con1text{
+            font-size:16pt;
+        } /* 더알아보기 */
+        .Smove{
+            position: absolute;
+            left:50%; 
+            transform:translateX(-50%);
+            margin-bottom:10px;
+        }
+
+        /*콘텐츠2*/
+        .back{
+            background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) );
+            height: 100%;
+        }
+        .Con2box{
+            clear:both;
+            background-image: url("../img/About2.jpg");
+            background-repeat: no-repeat;
+    	    background-position: center;
+    	    background-size: cover;
+    	    background-attachment: fixed;
+            position:relative;
+    	    width: 100%;
+            height: 100%;
+            
+        }
+        
+        .Con2title{
+            text-align: center;
+            padding-top: 23%;
+            font-size:50pt;
+            font-weight: bold;
+        }
+        .Con2tit{
+            text-align: center;
+            margin-top: 2%;
+            font-size:15pt;
+        }
+        .Con2box2{
+            margin:auto;
+            margin-top:3%;
+            max-width:1200px;
+            padding:20px;
+        }
+
+        .line1{
+            position: absolute;
+            top:215%;
+            z-index:-5;
+            left:50%; 
+            transform:translateX(-50%);
+        }
+        .Con2box2title{
+            margin-top:10px;
+            text-align: center;
+            font-size:60pt;
+            margin-bottom: 5%;
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        .Con2con{
+	        width:30%;
+	        margin-left:2.5%;
+            float:left;
+            text-align:center;
+        }
+        .Con2tit{
+            padding-top:8px;
+            font-size:12pt;
+        }
+        .Con2box2tit{
+            margin-top:50px;
+            margin-bottom: 10px;
+        }
+        .box2tit{
+            margin-left:4.3%;
+            margin-top:50px;
+            line-height: 230%;
+            font-size:11pt;
+        }
+
+
+        .box2title1{
+            letter-spacing: 2.8px;
+        }
+        .box2title2{
+            letter-spacing: 1.9px;
+        }
+        .box2title3{
+            letter-spacing: 2.5px;
+        }
+        
+        .box2title2-1{
+            letter-spacing: 1px;
+        }
+        .box2title2-2{
+            letter-spacing: 0.5px;
+        }
+        .box2title2-3{
+            letter-spacing: 0.6px;
+        }
+
+        .box2title3-1{
+            letter-spacing: 0.1px;
+        }
+        .box2title3-2{
+            letter-spacing: 1.8px;
+        }
+        .box2title3-3{
+            letter-spacing: 1.7px;
+        }
+
+        .Con2con2{
+            padding-top:10%;
+            font-size:30pt;
+            line-height: 350%;
+        }
+
+        .Con2con2_1{
+            margin-left: 20%;
+            font-weight: bold;
+            
+        }
+        .Con2con2_2{
+            font-size:80pt;
+            text-align: center;
+            font-weight: bold;
+        }
+        .Con2con2_3{
+            margin-left: 50%;
+            margin-top:1%;
+            font-weight: bold;
+        }
+        .line2{
+            position: absolute;
+            z-index:-5;
+            margin-top:5px;
+            left:45%; 
+            transform:translateX(-50%);
+        }
+        .Con3box{
+            margin:auto;
+            max-width: 1200px;
+            height: 50%;
+            background-color: black;
+        }
+        .Con3app1{
+            position: absolute;
+            left: 25%;
+            margin-top:10%;
+        }
+        .Con3title{
+            position: absolute;
+            left: 50%;
+            margin-top:20%;
+            font-size:25px;
+        }
+        .Con3title2{
+            position: absolute;
+            left: 50%;
+            margin-top:30%;
+        }
+        /*
+        .Con3box2{
+            margin:auto;
+            margin-top:70%;
+            max-width: 1200px;
+        }
+
+
+
+        .Con3box2{
+            margin:auto;
+            margin-top:14%;
+            max-width:1200px;
+            padding:20px;
+        }
+
+        .Con3box2title{
+            text-align: center;
+            padding-top:30px;
+            padding-bottom: 80px;
+        }
+        
+        .Con3con{
+            background-color:gray;
+            width:20%;
+            max-width:1200px;
+            margin-left:4%;
+            padding-top:5%;
+            float:left;
+            text-align:center;
+            line-height: 300%;
+        }
+        
+        .Con3con li{
+            margin-top:10px;
+        }
+        */
+        
+        .A_1{
+            width: 100%;
+            height: 100%;
+            background-color:black;
+        }
+        
+        .MiniGnb{
+            position: absolute;
+            line-height: 300%;
+            left: 10%;
+            margin-top : 17%
+        }
+
+        .A_img{
+            position: absolute;
+            left: 40%;
+            margin-top : 5%;
+        }
+        .line4{
+            position: absolute;
+            z-index:-5;
+            left:50%;
+            transform:translateX(-50%);
+            margin-top:260px;
+        }
+        .line6{
+            position: absolute;
+            margin-top:55px;
+            left: 6%;
+        }
+        .Apptitle1{
+            position: absolute;
+            left: 6.5%;
+            margin-top:25px;
+            font-size:18pt;
+        }
+        .phone{
+            position: absolute;
+            margin-top:10%;
+            left:50%;
+            transform:translateX(-45%);
+            z-index: 5;
+        }
+        .slogan{
+            position: absolute;
+            text-align: right;
+            font-size:40pt;
+            padding-top: 30%;
+            left: 38%;
+            line-height: 200%;
+            z-index: 10;
+            font-weight: bold;
+        }
+        .download1{
+            border: 1.3px solid #dddddd;
+            padding: 15px;
+            border-radius: 30px;
+        }
+        .down1{
+            position: absolute;
+            font-size:15pt;
+            padding-top: 45%;
+            left: 80%;
+            z-index: 10;
+        }
+        
+
+
+        .Service{
+            margin-top:5%;
+        }
+        .serviceline{
+            position: absolute;
+            margin-top:-25px;
+            left: 6%;
+        }
+        .Sertit{
+            position: absolute;
+            margin-top:-3.3%;
+            margin-left:6.5%;
+            font-size:18pt;
+        }
+
+        .Sercon{
+            margin-top:15%;
+	        width:17.5%;
+            float:left;
+            margin-left:6%
+        }
+        .Servicetit2{
+            padding-top:15%;
+            font-size:10pt;
+        }
+        .Sercon li{
+            line-height: 250%;
+        }
+
+        .Servicetit1{
+            font-weight: bold;
+            margin-top:5px;
+        }
+        .tit2ser1{
+            letter-spacing: 0.5px;
+        }
+        .tit2ser2{
+            letter-spacing: -0.4px;
+        }
+        .tit2ser3{
+            letter-spacing: -0.4px;
+        }
+        
+    .tab-menu{
+    width:1200px;
+    margin:0 auto;
+    padding-top:150px;
+    }
+  .tab-menu ul{
+    display:flex
+    }
+  .tab-menu li{
+    flex:1;
+    height:40px;
+    }
+  .tab-menu li a{
+    position:relative;
+    display:block;
+    width:100%;
+    height:100%;
+    border:solid 1px 000;
+    background-color: #000000; /* 클릭되지 않은 곳의 색상 박스*/
+    font-size:12pt; 
+    text-transform:uppercase;
+    text-align:center;
+    color:#fff; /* 클릭되지 않은곳의 글씨 색상*/
+    line-height:40px; 
+    }
+  .tab-menu li a.selected{
+    background-color:rgb(95, 0, 124); /* 클릭한 곳의 색상*/
+    cursor:default;
+    /*두꺼운 효과 줘야함*/
+    color:#fff;
+    }
+  .tab-container{
+    width:1200px;
+    margin:0 auto;
+    box-sizing:border-box;
+    } /* 콘텐츠 별 크기*/
+    .tab-container .tab-content{
+    display:none;
+    padding:20px;
+    height:500px; /* 높이 */
+    box-sizing:border-box;
+    }
+    .tab-container .tab-content.selected{
+    display:block;
+    } 
+  
+  
+    .Tab-title{
+    position: absolute;
+    left: 6.5%;
+    margin-top:25px;
+    font-size:18pt;
+    }
+    .Tabline{
+    position: absolute;
+    margin-top:55px;
+    left: 6%;
+    }
+    
+    .tab1{
+        margin-left:5%;
+        margin-top:3%;
+    }
+
+    .Crewtitle{
+        position: absolute;
+        left: 6.5%;
+        margin-top:25px;
+        font-size:18pt;
+    }
+
+
+    .Sup1 {
+        position: absolute;
+        top :80%;
+        left: 95%;
+        z-index: 100;
+    }
+    .Sdown1 {
+        position: absolute;
+        top :90%;
+        left: 95%;
+        z-index: 100;
+    }
+
+    .Sup2 {
+        position: absolute;
+        top :80%;
+        left: 95%;
+        z-index: 100;
+    }
+    .Sdown2 {
+        position: absolute;
+        top :90%;
+        left: 95%;
+        z-index: 100;
+    }
+    .Sup3 {
+        position: absolute;
+        top :293%;
+        left: 95%;
+        z-index: 100;
+    }
+    .Sdown3 {
+        position: absolute;
+        top :303%;
+        left: 95%;
+        z-index: 100;
+    }
+    .Sup4 {
+        position: absolute;
+        top :403%;
+        left: 95%;
+        z-index: 100;
+    }
+    .Sdown4 {
+        position: absolute;
+        top :413%;
+        left: 95%;
+        z-index: 100;
+    }
+    .Sup5 {
+        position: absolute;
+        top :503%;
+        left: 95%;
+        z-index: 100;
+    }
+    .Sdown5 {
+        position: absolute;
+        top :513%;
+        left: 95%;
+        z-index: 100;
+    }
+    .Sup6 {
+        position: absolute;
+        top :603%;
+        left: 95%;
+        z-index: 100;
+    }
+    .Sdown6 {
+        position: absolute;
+        top :613%;
+        left: 95%;
+        z-index: 100;
+    }
+    .Sup7 {
+        position: absolute;
+        top :714.5%;
+        left: 95%;
+        z-index: 100;
+    }
+    .Sdown7 {
+        position: absolute;
+        top :724.5%;
+        left: 95%;
+        z-index: 100;
+    }
+    .Sup8 {
+        position: absolute;
+        top :814.5%;
+        left: 95%;
+        z-index: 100;
+    }
+    .Sdown8 {
+        position: absolute;
+        top :824.5%;
+        left: 95%;
+        z-index: 100;
+    }
+    .Sup9 {
+        position: absolute;
+        top :914.5%;
+        left: 95%;
+        z-index: 100;
+    }
+    .Sdown9 {
+        position: absolute;
+        top :924.5%;
+        left: 95%;
+        z-index: 100;
+    }
+    .Sup10 {
+        position: absolute;
+        top :1014.5%;
+        left: 95%;
+        z-index: 100;
+    }
+    .Sdown10 {
+        position: absolute;
+        top :1024.5%;
+        left: 95%;
+        z-index: 100;
+    }
+    .Art1{
+        position: absolute;
+        margin-left:35%;
+        margin-top:3%;
+    }
+
+    .line7{
+        position: absolute;
+        margin-top:50px;
+        left: 6%;
+    }
+
+
+   .Con4tit{
+    position: absolute;
+    left: 6.5%;
+    margin-top:25px;
+    font-size:18pt;
+    }
+
+    .Con4maintit{
+        position: absolute;
+        left: 6.5%;
+        margin-top:8%;
+        font-size:11pt;
+        line-height: 200%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .Con6tit{
+        position: absolute;
+        left: 6.5%;
+        margin-top:25px;
+        font-size:18pt;
+    }
+
+    .Crewbox1{
+        position: absolute;
+        left:30%;
+        transform:translateX(-70%);
+        margin-top:20%;
+        text-align: left;
+        line-height: 200%;
+        font-size:10pt;
+    }
+    .Crewbox2{
+        position: absolute;
+        left:50%;
+        transform:translateX(-50%);
+        margin-top:20%;
+        text-align: left;
+        line-height: 200%;
+        font-size:10pt;
+    }
+    .Crewbox3{
+        position: absolute;
+        left:70%;
+        transform:translateX(-30%);
+        margin-top:20%;
+        text-align: left;
+        line-height: 200%;
+        font-size:10pt;
+    }
+    .name {
+        font-weight: bold;
+        margin-bottom: 18px;
+        font-size:12pt;
+    }
+
+    .BigLogo{
+        position: absolute;
+        margin-top:31%;
+        margin-left: 55%;
+        width: 7%;
+    }
+
+    .Stop {
+        position: absolute;
+        top :1028%;
+        left: 94%;
+        z-index: 100;
+        }
+        .video1{
+            text-align: center;
+            margin-top:50px;
+        }
+        .video2{
+            text-align: center;
+            margin-top:20px;
+        }

@@ -100,6 +100,35 @@ input, select {
 
 html{height:100%;}
 
+@media only screen and (max-width:1980px){
+    .header{
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 5px;
+        margin-right: 15%;
+        }
+    .header a {
+        margin-left: 20%;
+        font-size:15px;
+    }    
+    .header .maintext{
+        font-size:40px;
+    }
+    .line {
+        margin-top:20px;
+        margin-bottom:40px;
+        border-bottom: 1px solid #000;
+        margin-left:auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    .mainimg img {
+        width : 430px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
 @media only screen and (max-width:500px){
     .header{
         text-align: center;
@@ -121,7 +150,8 @@ html{height:100%;}
     }
     .mainimg {
         margin-top:10%;
-        text-align: center;
+        margin-left:auto;
+        margin-right: auto;
         margin-bottom: 10%;
         font-size:6px;
     }

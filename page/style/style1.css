@@ -129,7 +129,7 @@ input, select {
     }
 }
 */
-@media only screen and (max-width:500px){
+@media only screen and (max-width:450px){
     body{
         width:auto;
     }
@@ -198,7 +198,6 @@ input, select {
     .footer{
         font-size:12px;
         margin-left:-3%;
-        margin-right:-21%;
     }
     .footer ul {
         list-style-type: none;

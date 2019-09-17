@@ -134,7 +134,7 @@ input, select {
         width:auto;
     }
     .header{
-        margin-top:3%;
+        margin-top:5%;
         text-align: center;
         padding-top: 20px;
         padding-bottom: 5px;
@@ -157,16 +157,17 @@ input, select {
         border-bottom: 1px solid #000;
         margin-left:auto;
         margin-right: auto;
-        width: 80%;
+        width: 75%;
     }
     .mainimg img {
         width: auto;
         height: auto;
-        max-width: 300px;
+        max-width: 250px;
         display: block;
         margin-right: auto;
         margin-left: auto;
-        margin-bottom: 5%;
+        margin-top: 8%;
+        margin-bottom: 8%;
     }
     .mainimgtext{
         font-size:10px;
@@ -180,7 +181,7 @@ input, select {
 
     .contens{
         text-align: center;
-        margin-top: 5%;
+        margin-top: 10%;
         margin-bottom: 7%;
     }
     .subimg{
@@ -191,7 +192,7 @@ input, select {
     .subimg img{
         width: auto;
         height: auto;
-        max-width: 83px;
+        max-width: 70px;
         margin-left: 4.5%;
         margin-bottom: 5%;
     }
@@ -204,7 +205,7 @@ input, select {
         float:left;
         margin-bottom: 30px;
         margin-right:15%;
-        margin-left:15%;
+        margin-left:18%;
     }
     .footer .lui {
         font-weight:700;

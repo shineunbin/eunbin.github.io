@@ -111,7 +111,7 @@ input, select {
         }
     
     .logo img{
-        width: 15%;
+        width: 18%;
         margin-right:-2%;
     }
     .header a {
@@ -164,8 +164,10 @@ input, select {
     .content1_sub{
         margin-top:5px;
         margin-left:14%;
-        font-size:14px;
+        margin-right: 27%;
+        font-size:17px;
         line-height:24px;
+        text-align: justify;
     }
     .content1_img img{
         max-width: 283px;

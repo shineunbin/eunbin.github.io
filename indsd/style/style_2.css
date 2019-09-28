@@ -105,6 +105,12 @@
     font-size:18px;
     margin-left:-18%;
 }
+.footer ul li a {
+    font-size:14px;
+}
+.footer .inst a{
+    font-size:14px;
+}
 .footer ul {
     list-style-type: none;
     float:left;

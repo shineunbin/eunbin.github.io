@@ -1,5 +1,5 @@
 @media only screen and (max-width:450px){
-    .header a {
+    a {
         color:black;
     }
     a:link { 
@@ -38,7 +38,7 @@
         margin-right:-9%;
     }
     .line {
-        margin-top:5%;
+        margin-top:6%;
         margin-bottom:15px;
         border-bottom: 1px solid #000;
         margin-left:auto;

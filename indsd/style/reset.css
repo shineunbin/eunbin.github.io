@@ -46,7 +46,8 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
 html{
-    font-family: source-han-serif-korean, serif;
-    font-style: normal;
+	font-family: 'Noto Sans KR', sans-serif;
 }

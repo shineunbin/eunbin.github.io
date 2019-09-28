@@ -1,15 +1,17 @@
-.header a {
-    color:black;
-}
-a:link { 
-    text-decoration: none;
+@media only screen and (max-width:450px){
+    a {
+        color:black;
     }
-a:visited { 
-    color: black; text-decoration: none;
-    }
-a:hover { 
-    color: black; 
-    }
+    a:link { 
+        text-decoration: none;
+        }
+    a:visited { 
+        color: black; text-decoration: none;
+        }
+    a:hover { 
+        color: black; 
+        }
+    
 
 .header{
     padding-top: 8%;
@@ -139,4 +141,5 @@ a:hover {
     margin-left: 60%;
     margin-top:-8%;
     width: 28%;
+}
 }

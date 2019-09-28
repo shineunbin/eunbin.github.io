@@ -46,3 +46,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+html{
+    font-family: source-han-serif-korean, serif;
+    font-style: normal;
+}

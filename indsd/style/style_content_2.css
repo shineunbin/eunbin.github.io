@@ -95,6 +95,7 @@ h2{
     line-height: 180%;
     letter-spacing:1px;
     text-align: justify;
+
 }
 .content_text_2{
     margin-right:27%;
@@ -122,10 +123,10 @@ h2{
 .content_text_mini{
     font-size:10px;
     position: absolute;
-    text-align: justify;
     line-height: 150%;
     margin-left:72%;
-    margin-right:4%;
+    max-width: 19%;
+    text-align: left;
     color:rgb(66, 66, 66);
 }
 

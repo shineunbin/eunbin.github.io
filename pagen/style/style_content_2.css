@@ -63,6 +63,8 @@
 
 h2{
     font-weight: 600;
+    margin-top:5%;
+    margin-bottom: 5%;
 }
 
 .main_title{
@@ -83,8 +85,8 @@ h2{
 
 .content_main .content_img_1 img{
     margin-top:5%;
-    width:100%;
     margin-bottom: 5%;
+    width:100%;
 }
 .content_main .content_img_2 img{
     width:60%;
@@ -95,7 +97,6 @@ h2{
     line-height: 180%;
     letter-spacing:1px;
     text-align: justify;
-
 }
 .content_text_2{
     margin-right:27%;
@@ -123,10 +124,10 @@ h2{
 .content_text_mini{
     font-size:10px;
     position: absolute;
+    text-align: justify;
     line-height: 150%;
     margin-left:72%;
-    max-width: 19%;
-    text-align: left;
+    margin-right:4%;
     color:rgb(66, 66, 66);
 }
 
@@ -144,8 +145,8 @@ h2{
     max-width: 27%;
     margin-top:5%;
     margin-left: 1%;
-    margin-right:1%;
-    box-shadow: 5px 5px 3px #aaaaaa;  
+    margin-right:1%; 
+    box-shadow: 5px 5px 3px #aaaaaa; 
 }
 .line_2{
     margin-top:9%;

@@ -64,7 +64,9 @@
 h2{
     font-weight: 600;
 }
-
+h4{
+    font-size:8px;
+}
 .main_title{
     margin-left:6.2%;
     font-size:34px;
@@ -94,32 +96,22 @@ h2{
     font-size:14px;
     line-height: 180%;
     letter-spacing:1px;
-    text-align: justify;
 
+}
+.content_main .content_img_2 img{margin-top:5%;
+    margin-bottom: 5%;
+    width:100%;
 }
 .content_text_2{
     margin-right:27%;
     font-size:14px;
     line-height: 180%;
     letter-spacing:1px;
-    text-align: justify;
-}
-.content_text_1{
-    margin-right:27%;
-    font-size:14px;
-    line-height: 180%;
-    letter-spacing:1px;
-    text-align: justify;
+    text-align: left;
 }
 .content_text_3{
-    margin-right:27%;
-    font-size:14px;
-    line-height: 180%;
-    letter-spacing:1px;
-    text-align: justify;
     font-style: italic;
 }
-
 .content_text_mini{
     font-size:10px;
     position: absolute;

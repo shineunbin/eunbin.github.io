@@ -163,6 +163,7 @@ transition: .3s ease-in-out;
     width: 200px;
     text-align: center;
     padding: 15px;
+    color:#ffffff;
 }
 .Mainppt{
     display: inline-block;
@@ -172,6 +173,7 @@ transition: .3s ease-in-out;
     margin-left:5%;
     text-align: center;
     /* border-radius: 0px; */
+    color:#ffffff;
 }
 .Page02{
     width: 100%;
@@ -1406,13 +1408,94 @@ footer{
     width: 11.5%;
     opacity: 0.5;
 }
-
+.Page_team{
+    width: 100%;
+    height: 150vh;
+}
+.teamimg01{
+    margin-left:1%;
+    float: left;
+}
+.teambox{
+}
 .teamimg02 {
-    width: 250px;
-    height: 540px;    
+    margin-left:10%;
+    width: 400px;
+    height: 400px;
+    float: left;
     background: url("../team/y1.png") no-repeat;
-    display: inline-block;
+    background-position: center;
+    background-size: cover;
+    transition: .5s ease-in-out;
 }
 .teamimg02:hover {
     background: url("../team/y2.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: .5s ease-in-out;
+}
+.teamimg03 {
+    width: 400px;
+    height: 400px;
+    float: left;
+    background: url("../team/h1.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: .5s ease-in-out;
+}
+.teamimg03:hover {
+    background: url("../team/h2.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: .5s ease-in-out;
+}
+.teamimg04 {
+    margin-left:0%;
+    width: 400px;
+    height: 400px;
+    float: left;
+    background: url("../team/j1.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: .5s ease-in-out;
+
+}
+
+.teamimg04:hover {
+    background: url("../team/j2.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: .5s ease-in-out;
+}
+.teamimg05 {
+    width: 400px;
+    height: 400px;
+    float: left;
+    background: url("../team/l1.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: .5s ease-in-out;
+}
+
+.teamimg05:hover {
+    background: url("../team/l2.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: .5s ease-in-out;
+}
+.teamimg06 {
+    width: 400px;
+    height: 400px;
+    float: left;
+    background: url("../team/s1.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: .5s ease-in-out;
+}
+
+.teamimg06:hover {
+    background: url("../team/s2.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: .5s ease-in-out;
 }

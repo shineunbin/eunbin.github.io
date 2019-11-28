@@ -1,0 +1,96 @@
+.container{
+    width:100vw;
+    height:100%;
+    margin-right:auto;
+    margin-left:auto;
+    box-sizing:border-box;
+}
+#page04{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    overflow:hidden;
+}
+.page04_box1{
+    position: relative;
+    width: 1400px;
+    height: 120vh;
+}
+.actor_title{
+    position: absolute;
+    font-size:200px;
+    font-family: 'Morganite Black';
+    margin-top:180px;
+    margin-left:19%;
+    white-space: nowrap;
+    color:#fff;
+}
+.page04_name{
+    position: absolute;
+    margin-top:28%;
+    margin-left:19%;
+    font-size:55px;
+    font-family: 'Morganite Light';
+    color:white;
+}
+.page04_work{
+    position: absolute;
+    font-size:25px;
+    margin-left:19%;
+    font-family: 'Noto-sans';
+    margin-top:53%;
+    color:white;
+    font-weight: 700;
+}
+.page04_work b+b{
+    margin-left:15px;
+}
+a{color:white}
+.page04_work a:hover{
+    color:#da3e46;
+    border-bottom: solid 1px #aa0810;
+    border-bottom-width : 5px;
+    transition: 0.3s;
+}
+
+
+.page04imgbox {
+    position: absolute;
+    top: 17%;
+    left:60%;
+    width: 800px;
+    height: 570px;
+    border: solid 1px #fff;
+}
+/* 
+.blind{display:none;visibility:hidden}
+.banner .banner-wrap{position:relative}
+.banner .banner-container{position:relative;height:100%}
+.banner .banner-container::after{content:'';display:block;position:relative;clear:both}
+.banner .banner-container .banner-item{position:relative;float:left;height:100%}
+.banner .banner-container .banner-item .image-area{position:absolute;width:100%;height:100%}
+.banner .banner-container .banner-item .image-area img{display:inline-block;width:100%;height:100%;vertical-align:top;object-fit:cover} */
+
+
+
+
+
+#page05{
+    width: 100vw;
+    height: 100vh;
+    background: black;
+}
+.page05_box1{
+    position: relative;
+    top:50%;
+    left: 50%;
+}
+.page05_title{
+    position: absolute;
+    font-size:100px;
+    color:white;
+    font-family: 'Morganite Black';
+    /* transform:scale(5); */
+    transform: translate(-50%,-50%);
+}

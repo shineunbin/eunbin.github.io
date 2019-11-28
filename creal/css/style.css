@@ -16,6 +16,21 @@ background-image: url("../img/main.png");
 background-position: center;
 background-size: cover;
 }
+.best{
+    position: relative;
+    width: 100%;
+    
+}
+.best01{
+    position: absolute;
+    padding-top:30%;
+    margin-left:75%;
+}
+.best02{
+    position: absolute;
+    padding-top:30%;
+    margin-left:85%;
+}
 .TopMenu{
 width: 100%;
 height: 10%;

@@ -1,0 +1,65 @@
+html{overflow-x: hidden; white-space: nowrap;}
+
+.main01{
+    position: absolute;
+    background-image: url("../image/bin.png");
+    clear:both;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    filter: blur(3px);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+.main02{
+    position: absolute;
+    background-image: url("../image/workmain.png");
+    clear:both;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    filter: blur(3px);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+.main03{
+    position: absolute;
+    background-image: url("../image/contact.png");
+    clear:both;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    filter: blur(3px);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+.container{width:1400px; margin: 0 auto;}
+.maintitle{
+    /* font-family: 'Roboto Slab', serif; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 120px;
+    line-height: 1.1;
+    font-weight: bold;
+    color: #3a3a3a;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+.maintitle a{
+    color:#FC105C;
+    transition: all 0.08s linear;
+}
+.maintitle b{
+    margin-left:150px;
+    opacity: 0;
+}
+
+.maintitle a:hover{
+    color:#3a3a3a;
+    transition: color 0.08s linear;
+}
+

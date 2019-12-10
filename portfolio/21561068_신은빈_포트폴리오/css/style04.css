@@ -1,0 +1,55 @@
+html{
+    overflow: hidden;
+}
+.maintext{
+    font-family: 'Roboto', 'noto-sans';
+    position: absolute;
+    left:190px;
+    margin-top:5%;
+    font-size:36px;
+    color: #FC105C;
+    font-weight: 900;
+}
+.container{width:2000px; height:100%; margin: 0 auto;}
+.self_box{
+    position: relative;
+    width: 1500px;
+    height: 800px;
+    font-family: 'Roboto', 'noto-sans';
+    font-size: 40px;
+    font-weight: bold;
+    color: #3a3a3a;
+}
+.self a {color:#3a3a3a}
+.boxtitle_01{
+    position: absolute;
+    top:30%;
+    left:150px;
+    line-height: 1.2;
+}
+.boxtitle_02{
+    position: absolute;
+    top:50%;
+    left:50px;
+    line-height: 1.5;
+}
+.boxtitle_02_1{
+    font-size:60px;
+}
+.boxtitle_02_2{
+    font-size:100px;
+    color:#FC105C;
+}
+.boxtitle_03{
+    position: absolute;
+    right: -250px;
+    top:50%;
+    text-align: right;
+}
+.contact{
+    font-size:80px;
+    border-bottom: solid 3px #FC105C;
+}
+.number{
+    line-height: 2;
+}

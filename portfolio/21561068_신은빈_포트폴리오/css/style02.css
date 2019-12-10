@@ -1,0 +1,132 @@
+body{
+  overflow-x: hidden;
+}
+.maintext{
+  font-family: 'Roboto', 'noto-sans';
+  position: absolute;
+  left:190px;
+  margin-top:5%;
+  font-size:36px;
+  color: #FC105C;
+  font-weight: 900;
+}
+.maintitle{
+    display: inline-block;
+    margin-left:10%;
+    padding-top:12%;
+    font-size:55px;
+    line-height: 1.8;
+    font-family: 'Roboto', "noto-sans";
+    font-weight: 600;
+    color:rgb(82, 82, 82);
+}
+.maintitle b{
+  opacity: 0;
+  margin-left:-50px;
+}
+.button{
+    margin-top:-30px;
+}
+.maintitle .but1{
+    display: inline-block;
+    font-size:18px;
+}
+.but1 a {color:#fff}
+.but1 a{
+    background:#FC105C;
+    color:#fff;
+    border:none;
+    position:relative;
+    padding:5px 50px;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+}
+.but1 a:hover{
+    background:#fff;
+    color:#FC105C;
+  }
+  .but1 a:before,button:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #FC105C;
+    transition:400ms ease all;
+  }
+  .but1 a:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  .but1 a:hover:before,.but1 a:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+
+.maintitle h2{
+    margin-top:180px;
+    font-size:10pt;
+    font-weight: 400;
+}
+.mainimage{
+  position: absolute;
+  top:25%;
+  left:65%;
+}
+.mainimage .binmain{
+    position: relative;
+    /* filter: blur(2px); */
+    width:420px;
+    opacity: 1;
+}
+.binbox{
+  position: absolute;
+  top:0;
+}
+.binbox div{background:#fff;width: 100%;opacity: 1;}
+#page02{
+  width: 100vw;
+  height: 200vh;
+}
+.container{
+  width: 1550px;
+  height: 900px;
+  margin:0 auto;
+}
+.page02_2{
+  font-family: 'Roboto', 'sans-sans';
+  font-size:110px;
+  font-weight: 900;
+  color:#ffffff;
+  position: relative;
+  top:150px;
+  line-height: 2.3;
+  left:0;
+}
+.page02_2 b{
+  margin-left:350px;white-space: nowrap;
+}
+.page02_video{
+  top:0;
+  position: sticky;
+}
+.page02_video img{
+  position: absolute;
+  display: block;
+  width:100vw;
+  height: 100vh;
+  object-fit: cover;
+  top:0;
+  left:0;
+}
+
+::-webkit-scrollbar{width: 16px;}
+::-webkit-scrollbar-track {background-color:rgb(255, 255, 255);}
+::-webkit-scrollbar-thumb {background-color:#FC105C;}
+::-webkit-scrollbar-thumb:hover {background: #555;}
+::-webkit-scrollbar-button:start:decrement,::-webkit-scrollbar-button:end:increment {
+width:16px;height:16px;background:#FC105C;} 

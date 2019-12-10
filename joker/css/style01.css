@@ -1,3 +1,5 @@
+/* html 기준 page01~page03 */
+
 html{
     overflow-x:hidden;
     background: #000;
@@ -48,7 +50,6 @@ html{
     top:70%;
     transform: translate(-50%, -50%);
 }
-
 .page01_box2{
     position: absolute;
     top:90%;
@@ -71,7 +72,6 @@ html{
     color:#929292;
     right:2%;
 }
-
 #page02{
     width: 100%;
     height: 100vh;
@@ -86,24 +86,17 @@ html{
     color:white;
 }
 .page02_box01{
-    position: absolute;
-    top:50%;
-    width: 100vw;
-    transform: translate(0,-50%);
+    position: relative;
     font-family: 'Morganite Light';
     font-size:50px;
-}
-.page02_box01_color b{
-    position: absolute;
-    margin-left:260px;
-    font-size:50px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
 }
 .fontbox{
     position: relative;
-    width: 100%;
-    display: inline-block;
-    text-align: center;
     white-space: nowrap;
+    text-align: center;
 }
 .color{
     margin:150px;
@@ -122,34 +115,50 @@ html{
 #page03{
     position: relative;
     width: 100%;
+    height: 100vh;
     background: black;
 }
-.page03_box1{
+.page03_bigbox{
     position: relative;
-    max-width: 1400px;
-    height: 120vh;
+    width:1400px;
+    height:900px;
+    left:50%;
+    transform: translate(-50%,0%);
 }
-.page03_box1_1{
+.page03_best{
     position: relative;
+    left:50%;
+    top:300px;
+}
+.page03_best p{
+    position: absolute;
+    color:rgb(204, 204, 204);
+    opacity: 0;
+    font-size:80px;
+    font-weight: 900;
+}
+.page03_best_01{
+    left:0px;
+}
+.page03_best_02{
+    top:150px;
+    left:0px;
 }
 .story_title{
     position: absolute;
     font-size:200px;
     font-family: 'Morganite Black';
     margin-top:180px;
-    margin-left:19%;
     white-space: nowrap;
     color:#fff;
 }
 .story_box{
     position: absolute;
     overflow-x: hidden;
-    font-size:12px;
+    font-size:14px;
     height: 150px;
     width: 500px;
-    /* margin-left:300px; */
-    margin-left:19%;
-    background: #000;
+    background: none;
     margin-top:420px;
     color:#979797;
     line-height: 30px;
@@ -161,36 +170,42 @@ html{
     height: 350px;
     transition: all 0.6s ease-in-out;
 }
-.page03imgbox .page03_img01 {
+.page03bigimgbox{
     position: absolute;
-    top: 15%;
-    left:80%;
-    filter: blur(0px);
-    transition: all 1s ease-in-out;
-    width: 450px;
+    width: 100%;
+    height: 100%;
+    left:0;
+    top:0;
 }
-.page03imgbox .page03_img02 {
+.page03_bigimg01{
     position: absolute;
-    top: 15%;
-    left:80%;
-    filter: blur(0px);
-    opacity: 0;
-    transition: all 1s ease-in-out;
-    width: 450px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
-
+.page03_bigimg02{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.scrolltext{
+    font-size:25px;
+    color:white;
+    margin-bottom: 10px;
+}
 /* 스크롤 page03 */
 .story_box::-webkit-scrollbar { width: 10px; }
 .story_box::-webkit-scrollbar-track { background-color: #000000; }
 .story_box::-webkit-scrollbar-thumb { 
     background: linear-gradient(to bottom, #6e6e6e, #6e6e6e); 
 }
-.story_box::-webkit-scrollbar-button { display: none; }
-
+.story_box::-webkit-scrollbar-button { 
+    display: none; 
+}
 #global-nav.hide{
     transform:translate(-50%,-50%);
-    transition: 0.3s;}
-
+    transition: 0.3s;
+}
 #global-nav{
     font-family: Noto-sans;
     position:fixed;

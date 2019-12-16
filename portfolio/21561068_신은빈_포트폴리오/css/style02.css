@@ -4,7 +4,7 @@ body{
 .maintext{
   font-family: 'Roboto', 'noto-sans';
   position: absolute;
-  left:190px;
+  left:10%;
   margin-top:5%;
   font-size:36px;
   color: #FC105C;
@@ -99,13 +99,13 @@ body{
 }
 .page02_2{
   font-family: 'Roboto', 'sans-sans';
-  font-size:110px;
+  font-size:80px;
   font-weight: 900;
   color:#ffffff;
   position: relative;
   top:150px;
   line-height: 2.3;
-  left:0;
+  left:50px;
 }
 .page02_2 b{
   margin-left:350px;white-space: nowrap;

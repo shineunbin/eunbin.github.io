@@ -26,11 +26,11 @@
 .container .scroll-slide .content .slide-bg { position:absolute;  }
 .container .scroll-slide.active .content .slide-bg { width:100%;}
 
-.content img {width: 1000px;}
+.content img {width: 800px;}
 .maintext{
   font-family: 'Roboto', 'noto-sans';
   position: absolute;
-  left:190px;
+  left:10%;
   margin-top:5%;
   font-size:36px;
   color: #FC105C;
@@ -52,7 +52,7 @@
     width: 380px;
     height: 500px;
     top:80px;
-    left:1450px;
+    left:1200px;
     transform: translate(-50%,0%);
     line-height: 2
 }

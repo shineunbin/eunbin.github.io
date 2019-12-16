@@ -40,7 +40,7 @@ html{overflow-x: hidden; white-space: nowrap;}
 .maintitle{
     /* font-family: 'Roboto Slab', serif; */
     font-family: 'Roboto', sans-serif;
-    font-size: 140px;
+    font-size: 110px;
     line-height: 1.1;
     font-weight: bold;
     color: #3a3a3a;
@@ -50,7 +50,8 @@ html{overflow-x: hidden; white-space: nowrap;}
     transform: translate(-50%,-50%);
 }
 .maintitle a{
-    color:#FC105C;
+    /* opacity: 1; */
+    color:rgba(0, 0, 0, 0);
     transition: all 0.08s linear;
 }
 .maintitle b{
@@ -59,7 +60,99 @@ html{overflow-x: hidden; white-space: nowrap;}
 }
 
 .maintitle a:hover{
-    color:#3a3a3a;
+    /* color:#3a3a3a; */
     transition: color 0.08s linear;
 }
 
+.bin::before,
+.bin::after {
+	content: attr(data-text);
+	position: absolute;
+	top: 242px;
+	left: 660px;
+    color:#FC105C;
+	transition: 0.5s;
+    opacity: 0.5;
+}
+.bin::before {
+	clip-path: polygon(0 0, 60% 0, 30% 100%, 0 100%);
+}
+.bin::after {
+	clip-path: polygon(60% 0, 100% 0, 100% 100%, 30% 100%);
+}
+.bin:hover::before {
+	left: 640px;
+	transform: rotate(-5deg);
+    top: 232px;
+    opacity: 1;
+	transition: 0.5s;
+}
+.bin:hover::after {
+	left: 680px;
+	transform: rotate(5deg);
+	top: 252px;
+    opacity: 1;
+	transition: 0.5s;
+}
+
+.work::before,
+.work::after {
+	content: attr(data-text);
+	position: absolute;
+	top: 362px;
+	left: 597px;
+    color:#FC105C;
+	transition: 0.5s;
+    opacity: 0.5;
+}
+.work::before {
+	clip-path: polygon(0 0, 60% 0, 30% 100%, 0 100%);
+}
+.work::after {
+	clip-path: polygon(60% 0, 100% 0, 100% 100%, 30% 100%);
+}
+.work:hover::before {
+    left: 577px;
+	transform: rotate(-5deg);
+    top: 352px;
+    opacity: 1;
+	transition: 0.5s;
+}
+.work:hover::after {
+    left: 617px;
+	transform: rotate(5deg);
+	top: 372px;
+    opacity: 1;
+	transition: 0.5s;
+}
+
+.contact::before,
+.contact::after {
+	content: attr(data-text);
+	position: absolute;
+	top: 482px;
+	left: 426px;
+    color:#FC105C;
+	transition: 0.5s;
+    opacity: 0.5;
+}
+.contact::before {
+	clip-path: polygon(0 0, 60% 0, 30% 100%, 0 100%);
+}
+.contact::after {
+	clip-path: polygon(60% 0, 100% 0, 100% 100%, 30% 100%);
+}
+.contact:hover::before {
+	left: 406px;
+	transform: rotate(-5deg);
+	top: 472px;
+    opacity: 1;
+	transition: 0.5s;
+}
+.contact:hover::after {
+	left: 446px;
+	transform: rotate(5deg);
+	top: 492px;
+    opacity: 1;
+	transition: 0.5s;
+}

@@ -9,10 +9,10 @@
 
     for(var a = 0; a < $boxTitle_01.length+10; a++){
       $boxTitle_01.eq(a).delay(1000*a).animate({'opacity':'1'});
-      $(".boxtitle_01").delay(1000).animate({'left':'200'});
+      $(".boxtitle_01").delay(1000).animate({'left':'10%'});
       
       $boxTitle_02.eq(a).delay(1000*a).animate({'opacity':'1'});
-      $(".boxtitle_02").delay(3500).animate({'left':'200'});
+      $(".boxtitle_02").delay(3500).animate({'left':'10%'});
     }
 
 

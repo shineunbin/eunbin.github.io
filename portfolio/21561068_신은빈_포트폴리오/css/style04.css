@@ -4,7 +4,7 @@ html{
 .maintext{
     font-family: 'Roboto', 'noto-sans';
     position: absolute;
-    left:190px;
+    left:10%;
     margin-top:5%;
     font-size:36px;
     color: #FC105C;
@@ -13,7 +13,7 @@ html{
 .container{width:2000px; height:100%; margin: 0 auto;}
 .self_box{
     position: relative;
-    width: 1500px;
+    width: 1200px;
     height: 800px;
     font-family: 'Roboto', 'noto-sans';
     font-size: 40px;
@@ -30,20 +30,19 @@ html{
 .boxtitle_02{
     position: absolute;
     top:50%;
-    left:50px;
     line-height: 1.5;
 }
 .boxtitle_02_1{
     font-size:60px;
 }
 .boxtitle_02_2{
-    font-size:100px;
+    font-size:80px;
     color:#FC105C;
 }
 .boxtitle_03{
     position: absolute;
     right: -250px;
-    top:50%;
+    top:45%;
     text-align: right;
 }
 .contact{

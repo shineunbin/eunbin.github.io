@@ -1,5 +1,4 @@
 html{overflow-x: hidden; white-space: nowrap;}
-
 .main01{
     position: absolute;
     background-image: url("../image/bin.png");
@@ -94,7 +93,6 @@ html{overflow-x: hidden; white-space: nowrap;}
     opacity: 1;
 	transition: 0.5s;
 }
-
 .work::before,
 .work::after {
 	content: attr(data-text);
@@ -125,7 +123,6 @@ html{overflow-x: hidden; white-space: nowrap;}
     opacity: 1;
 	transition: 0.5s;
 }
-
 .contact::before,
 .contact::after {
 	content: attr(data-text);
@@ -155,4 +152,79 @@ html{overflow-x: hidden; white-space: nowrap;}
 	top: 492px;
     opacity: 1;
 	transition: 0.5s;
+}
+@media only screen and (max-width:650px){
+    html{overflow-x: hidden; white-space: nowrap;}
+    .main01{
+        position: absolute;
+        background-image: url("../image/bin.png");
+        clear:both;
+        background-position: center;
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+        filter: blur(3px);
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+    .main02{
+        position: absolute;
+        background-image: url("../image/workmain.png");
+        clear:both;
+        background-position: center;
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+        filter: blur(3px);
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+    .main03{
+        position: absolute;
+        background-image: url("../image/contact.png");
+        clear:both;
+        background-position: center;
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+        filter: blur(3px);
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+    .maintitle{
+        /* font-family: 'Roboto Slab', serif; */
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        line-height: 2;
+        font-weight: bold;
+        color: #3a3a3a;
+        position: absolute;
+        left:50%;
+        top:50%;
+        transform: translate(-50%,-50%);
+    }
+    .maintitle a{
+        /* opacity: 1; */
+        color:#FC105C;
+        transition: all 0.08s linear;
+    }
+    .maintitle b{
+        margin-left:80px;
+        opacity: 0;
+    }
+    .maintitle a:hover{
+        transition: color 0.08s linear;
+    }
+    .bin::before,
+    .bin::after {
+        display: none;
+    }
+    .work::before,
+    .work::after {
+        display: none;
+    }
+    .contact::before,
+    .contact::after {
+        display: none;
+    }
 }

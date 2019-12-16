@@ -130,3 +130,99 @@ body{
 ::-webkit-scrollbar-thumb:hover {background: #555;}
 ::-webkit-scrollbar-button:start:decrement,::-webkit-scrollbar-button:end:increment {
 width:16px;height:16px;background:#FC105C;} 
+
+@media only screen and (max-width:650px){
+  html{overflow-x: hidden; white-space: nowrap;}
+  .maintext{
+    font-family: 'Roboto', 'noto-sans';
+    position: absolute;
+    left:10%;
+    margin-top:22%;
+    font-size:16px;
+    color: #FC105C;
+    font-weight: 900;
+  }
+  .maintitle{
+      display: inline-block;
+      margin-left:10%;
+      padding-top:150px;
+      font-size:25px;
+      line-height: 1.8;
+      font-family: 'Roboto', "noto-sans";
+      font-weight: 600;
+      color:rgb(82, 82, 82);
+  }
+  .maintitle b{
+    opacity: 0;
+    /* margin-left:-50px; */
+  }
+  .button{
+    display: inline-block;
+    top:200px;
+    margin-left:140px;
+  }
+  .maintitle .but1{
+      display: inline-block;
+      font-size:12px;
+  }
+  .but1 a {color:#fff}
+  .but1 a{
+      background:#FC105C;
+      color:#fff;
+      border:none;
+      position:relative;
+      padding:5px 20px;
+      cursor:pointer;
+      transition:800ms ease all;
+      outline:none;
+  }
+  .but1 a:hover{
+      background:#fff;
+      color:#FC105C;
+    }
+    .but1 a:before,button:after{
+      content:'';
+      position:absolute;
+      top:0;
+      left:10%;
+      height:2px;
+      width:0;
+      background: #FC105C;
+      transition:400ms ease all;
+    }
+    .but1 a:after{
+      right:inherit;
+      top:inherit;
+      left:0;
+      bottom:0;
+    }
+    .but1 a:hover:before,.but1 a:hover:after{
+      width:100%;
+      transition:800ms ease all;
+    }
+  
+  .maintitle h2{
+      margin-top:120px;
+      font-size:12px;
+      font-weight: 400;
+  }
+  .mainimage{
+    position: absolute;
+    top:250px;
+    left:10%;
+  }
+  .mainimage .binmain{
+      position: relative;
+      /* filter: blur(2px); */
+      width:130px;
+      opacity: 1;
+  }
+  .binbox{
+    position: absolute;
+    top:0;
+  }
+  .binbox div{background:#fff;width: 100%;opacity: 1;}
+  #page02{
+    display: none;
+  }
+}

@@ -52,3 +52,60 @@ html{
 .number{
     line-height: 2;
 }
+
+@media only screen and (max-width:650px){
+    html{
+        overflow: hidden;
+    }
+    .maintext{
+        font-family: 'Roboto', 'noto-sans';
+        position: absolute;
+        left:10%;
+        margin-top:80px;
+        font-size:16px;
+        color: #FC105C;
+        font-weight: 900;
+    }
+    .container{width:100%; height:100%; margin: 0 auto;}
+    .self_box{
+        position: relative;
+        width: 400px;
+        height: 500px;
+        font-family: 'Roboto', 'noto-sans';
+        font-size: 20px;
+        font-weight: bold;
+        color: #3a3a3a;
+    }
+    .self a {color:#3a3a3a}
+    .boxtitle_01{
+        position: absolute;
+        top:30%;
+        left:150px;
+        line-height: 1.2;
+    }
+    .boxtitle_02{
+        position: absolute;
+        top:50%;
+        line-height: 1.5;
+    }
+    .boxtitle_02_1{
+        font-size:30px;
+    }
+    .boxtitle_02_2{
+        font-size:40px;
+        color:#FC105C;
+    }
+    .boxtitle_03{
+        position: absolute;
+        right: 0px;
+        top:400px;
+        text-align: right;
+    }
+    .contact{
+        font-size:80px;
+        border-bottom: solid 3px #FC105C;
+    }
+    .number{
+        line-height: 2;
+    }
+}

@@ -19,7 +19,7 @@
 .menu_box3{transition: all 1s ease-in-out;}
 .menu_box a:hover{transition:all 0.5s ease-in-out;color:#FC105C;}
 
-@media only screen and (max-width:650px){
+@media only screen and (max-width:550px){
     .gnb{position: fixed;z-index:1000;top:5%;left:93%}
     .home a{font-family:'Roboto','sans-sans';position: fixed;z-index:1;font-size:35px;color: #FC105C;top:3%;left:3%;}
     .menu_box ul{font-family: 'Roboto', sans-serif;font-size:30px;font-weight:900;color:#3a3a3a;display: flex;flex-direction: column;margin-left:10%;margin-top:80%;transform:translate(0%, -50%);}

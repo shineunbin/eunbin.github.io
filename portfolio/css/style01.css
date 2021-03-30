@@ -153,7 +153,38 @@ html{overflow-x: hidden; white-space: nowrap;}
     opacity: 1;
 	transition: 0.5s;
 }
-@media only screen and (max-width:650px){
+
+
+@media screen and (max-width: 1400px) {
+	    .maintitle{
+        font-size: 60px;
+        line-height: 2;
+        font-weight: bold;
+        color: #3a3a3a;
+        position: absolute;
+        left:50%;
+        top:50%;
+        transform: translate(-50%,-50%);
+    }
+    .maintitle b{margin-left:70px;opacity: 0;}
+	.bin::before,.bin::after {top: 242px;left: 355px;}
+	.bin:hover::before {left: 330px;}
+	.bin:hover::after {left: 380px;}
+	
+	.work::before,.work::after {left: 320px;}
+	.work:hover::before {left: 300px;}
+	.work:hover::after {left: 340px;}
+	
+	
+	.contact::before,.contact::after {left: 230px;}
+	.contact:hover::before {left: 210px;}
+	.contact:hover::after {left: 250px;}
+}
+	
+
+
+
+@media screen and (max-width: 650px) {
     html{overflow-x: hidden; white-space: nowrap;}
     .main01{
         position: absolute;

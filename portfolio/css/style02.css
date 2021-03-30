@@ -131,7 +131,17 @@ body{
 ::-webkit-scrollbar-button:start:decrement,::-webkit-scrollbar-button:end:increment {
 width:16px;height:16px;background:#FC105C;} 
 
-@media only screen and (max-width:650px){
+
+@media screen and (max-width: 1200px) {
+	.maintitle{font-size: 30px; padding-top: 180px;}
+	.mainimage .binmain{width: 300px; }
+	.mainimage{left: 55%;}
+	#page02{display: none;}
+	.button{margin-top: 0px;}
+}
+
+
+@media screen and (max-width: 850px) {
   html{overflow-x: hidden; white-space: nowrap;}
   .maintext{
     font-family: 'Roboto', 'noto-sans';

@@ -20,6 +20,8 @@
 }
 .nav li{
     margin-bottom: 20px;
+	font-weight: 600;
+	font-family: 'noto-sans';
 }
 .nav li a:hover{
     color:#FC105C;
@@ -35,6 +37,8 @@
 }
 .scetion .scetion_title{
     font-size:35px;
+	font-weight: 600;
+	font-family: 'noto-sans';
 }
 .scetion img{
     position: relative;
@@ -135,6 +139,10 @@
     .nav li{
         margin-bottom: 20px;
     }
+	.nav li a{
+		font-weight: 600;
+		font-family: 'noto-sans';
+	}
     .nav li a:hover{
         color:#FC105C;
         transform: color 0.3s;

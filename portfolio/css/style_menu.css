@@ -34,4 +34,5 @@
 
 @media screen and (max-width: 600px) {
 	.menu_box ul{font-size: 30px;}
+	.menu {transform:translate(-70%,-50%);}
 }
